@@ -6,12 +6,12 @@ Subject2 Web front end and Backend(API) project:
            - The database is provided 
 
 
- + To Run **Client** folder: 
+ To Run **Client** folder: 
   - **npm install**
   - **ng serve -o** or **ng s -o**
   - Then the web page will automatically load up
   
- + To Run **Server** 
+ To Run **Server** 
   - Simply click on the"Run Java" option in your IDE, for my case VSCode
   - if your angular app is already running on port **http://localhost:4200** don't worry about the below waring
   
@@ -19,7 +19,7 @@ Subject2 Web front end and Backend(API) project:
   before running this server, by default the server is comportable with the **client with port 4200**
   
   
- + To run **Stripe-Payment-Server**
+  To run **Stripe-Payment-Server**
   - in your terminal run **nodemon index.js**
   - note that you can run the Bookstore application with or without **Stripe-Payment-Server**
   - purpose of this this **Stripe-Payment-Server** is to check if the payment is added to seller stripe account
